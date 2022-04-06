@@ -1,0 +1,13 @@
+
+
+.AddExpensesParent{
+    display: flex;
+    margin: 10vh;
+    padding: 5vh;
+    background-color: blueviolet;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+

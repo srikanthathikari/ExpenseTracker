@@ -1,0 +1,19 @@
+
+.ExpensesBoxParent {
+
+    display: flex;
+    flex-direction: row;
+
+}
+
+.ExpenseBox{
+    display: flex;
+    flex-direction: column;
+    height:  25vh;
+    width: 15vw;
+    background-color: blueviolet;
+    border-radius: 30px;
+    margin-left: 5vw;
+    padding-top: 5vh;
+    overflow-wrap: break-word;
+}

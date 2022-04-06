@@ -1,0 +1,8 @@
+
+
+.headerTitle{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: 10vh;
+}
