@@ -11,7 +11,7 @@ const AddExpenses = (props) => {
         setTitle(event.target.value);
     }
     const amountHandler = (event) =>{
-        setAmount(event.target.value);
+        setAmount(Number(event.target.value));
     }
 
     const sendValues = {
