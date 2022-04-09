@@ -1,13 +1,19 @@
 
 
-.AddExpensesParent{
+
+
+.Form {
+    grid-area: fm;
     display: flex;
-    margin: 10vh;
-    padding: 5vh;
-    background-color: blueviolet;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: space-around;
-    align-items: center;
+    align-items: left;
+   
 }
 
-
+.Form input, button {
+    border-radius: 10px;
+    width: 30vw;
+    height: 5vh;
+    
+}

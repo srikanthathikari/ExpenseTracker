@@ -25,7 +25,7 @@ const AddExpenses = (props) => {
 
 
     return (
-        <div className="AddExpensesParent">
+        <div  className='Form'>
             <input placeholder='Add Expense title' type='text' onChange={titleHandler}></input>
             <input placeholder='Add Expense amount' type='number' onChange={amountHandler}></input>
             <button onClick={addExpensesHandler}>Add Expense</button>

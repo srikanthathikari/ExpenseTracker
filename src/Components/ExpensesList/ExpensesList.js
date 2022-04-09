@@ -4,7 +4,7 @@ import "./ExpensesList.css"
 const ExpensesList = props => {
 
     return (
-        <div className='ExpensesBoxParent'>
+        <div className='List' >
             {props.data.map((dataItem) => {
                 return (
                     <div  className='ExpenseBox'>

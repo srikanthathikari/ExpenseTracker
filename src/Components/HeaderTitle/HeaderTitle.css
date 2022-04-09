@@ -1,8 +1,9 @@
 
 
-.headerTitle{
-    display: flex;
-    flex-direction: row;
-    justify-content: left;
-    padding: 10vh;
+
+.Header {
+    grid-area: hd;
+    width: 100%;
+    padding-top: 10vh;
 }
+

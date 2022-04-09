@@ -1,5 +1,22 @@
+  @import url('../HeaderTitle/HeaderTitle.css');
+  @import url('../AddExpenses/AddExpenses.css');
+  @import url('../ExpensesList/ExpensesList.css');
 
-.ExpensesParent {
-    
-    width: 100vw;
+.Container {
+    display: grid;
+    grid-gap: 5vh;
+    margin: auto;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100%;
+    grid-template-areas: 
+    'hd hd hd hd'
+    'fm fm fm fm'
+    'li li li li'
+    'li li li li'
+    ;
 }
+
+
+
+
