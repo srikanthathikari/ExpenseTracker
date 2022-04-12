@@ -9,6 +9,7 @@ const ExpensesList = props => {
                 return (
                     <div  className='ExpenseBox'>
                         <h4>{dataItem.ExpenseTitle}</h4>
+                        <br></br>
                         <h4>{dataItem.ExpensePrice}$</h4>
                     </div>
                 )

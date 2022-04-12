@@ -5,15 +5,30 @@
 .Form {
     grid-area: fm;
     display: flex;
-    flex-direction: column;
-    justify-content: space-around;
-    align-items: left;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: blueviolet;
+    border-radius: 15px;
    
+}
+
+.AddExpenseButton{
+    display: flex;
+    height: 20vh;
+    width: 30vw;
+    border-radius: 20px;
+    justify-content: space-around;
+    align-items: center;
+    font-weight: bolder;
+    background-color: blueviolet;
+
+
 }
 
 .Form input, button {
     border-radius: 10px;
-    width: 30vw;
+    width: fit-content;
     height: 5vh;
     
 }
